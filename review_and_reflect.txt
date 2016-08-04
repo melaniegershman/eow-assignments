@@ -1,0 +1,47 @@
+##Command Line:
+1. What is a shell? What is "bash?" 
+
+A shell is a tool to navigate around your files. Bash is a command-line shell that lets you navigate using built-in commands.
+
+1. In your own words, write what each of the following commands does:
+
+`pwd` - "print working directory" shows you which directory you are currently in.
+
+`ls` - "list directory" lists files within the directory you are currently in. Adding flags such as -a or -l will include hidden files, and provide additional information about the files, respectively.
+
+`mv` - "move" a file or a directory elsewhere. You can also use `mv` to change a file's name.
+
+`cd` - "change directory" move into another directory
+
+`touch` - create a new file
+
+`mkdir` - make a new folder (directory)
+
+`rm` - "remove" a file or directory. You can use flags to override (-f) or enforce (-i) permissions, among other things.
+
+`help` - "help" provides documentation about a command
+
+`find` - "find" files
+
+`grep` - search through a directory, including within files, for a given string
+
+##Git:
+1. What is version control and why do developers use it? Version control allows us to view the history of revisions made to files, and it allows us to merge revisions made by different users without affecting the master code.
+2. What is a commit? What are the best practices for commit messages? A commit records changes to a repository with a descriptive message. A good commit message is written as an imperative statement, is concise, and explains what was done and why it was done.
+3. What is a branch? A branch is a copy of a program that can be worked on without affecting the master code, and without affecting the workflow of your colleagues. You can merge your branch back into the master once it is working properly. 
+4. What are the 3 stages of a git change and how do you move a file from one stage to the other? After you run `git init` to initalize your git cycle, you 1) run `git status` to see if any changes have been made to your files. If they have, you need to 2) stage those files for a commit by typing `git add <FILENAME>`. Run `git status` again to ensure that the files you are trying to commit have been staged. If so, you complete the cycle by 3) running `git commit -m "message"`, in which you concisely describe what was changed. This cycle is repeated as your files continue to be updated.
+
+##GitHub:
+1. Write an explanation of and compare Git and GitHub to one another.
+2. In your own words, write instructions to create, clone and update a repository.
+3. In your own words, write instructions to fork, clone and update a repository.
+4. What is a pull request and how do you create and merge one?
+5. Why are pull requests preferred when working with teams?
+
+[Here is a link to access this file on GitHub](www.github.com)
+
+----
+
+
+>block quote
+
