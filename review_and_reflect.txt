@@ -33,12 +33,12 @@ A shell is a tool to navigate around your files. Bash is a command-line shell th
 
 ##GitHub:
 1. Write an explanation of and compare Git and GitHub to one another. Git is a distributed version control system which manages your source code history, while GitHub is a web-based Git repository hosting service which you can use to share your code. 
-2. In your own words, write instructions to create, clone and update a repository. To create a new repository for an existing project, you copy the URL from GitHub after clicking on the "Create Repository" button. In your local project folder, you make a git folder by typing `git init`. Then, you stage your existing code by typing `git add`, and commit it by typing `git commit -m "<message>"`. Finally, you link your local project folder to by typing `git remote add origin <GitHub URL>`, and push it to GitHub by typing `git push -u origin master`. To clone the repo, you must first check that the directory you are cloning to is not already a clone repo, since you cannot nest repos. Once you have confirmed that no git repo exists in the file you are cloning into, you type `git clone <copied GitHub repo URL>`. You access the URL from the GitHub repo that you want to clone.
-3. In your own words, write instructions to fork, clone and update a repository.
+2. In your own words, write instructions to create, clone and update a repository. To create a new repository for an existing project, you copy the URL from GitHub after clicking on the "Create Repository" button. In your local project folder, you make a git folder by typing `git init`. Then, you stage your existing code by typing `git add`, and commit it by typing `git commit -m "<message>"`. Finally, you link your local project folder by typing `git remote add origin <GitHub URL>`, and push it to GitHub by typing `git push -u origin master`. To clone the repo, you must first check that the directory you are cloning to is not already a clone repo, since you cannot nest repos. Once you have confirmed that no git repo exists in the file you are cloning into, you type `git clone <copied GitHub repo URL>`. You access the URL from the GitHub repo that you want to clone.
+3. In your own words, write instructions to fork, clone and update a repository. To fork a repository, you just click on the **fork** option on the repo you wish to copy to your own GitHub account. Then, you clone the repo by typing `git clone <copied GitHub repo URL>`. 
 4. What is a pull request and how do you create and merge one?
 5. Why are pull requests preferred when working with teams?
 
-[Here is a link to access this file on GitHub](www.github.com)
+[Here is a link to access this file on GitHub](https://github.com/melaniegershman/eow-assignments/blob/master/review_and_reflect.txt) 
 
 ----
 
