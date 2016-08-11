@@ -1,0 +1,53 @@
+Briefly describe your understanding of what the browser does, including definitions of the following:
+A browser provides a way for computers to interact with each other via HTTP protocol. The browser allows the user to view HTML files and navigate the Web.
+
+client - a computer on the receiving end of requests in HTTP protocol.
+
+server - a computer that provides documents, images, and other files to a client.
+
+render - the process of converting text and image data to a human-viewable document.
+
+What is HTML? In your answer, include definitions of the following:
+HTML is hypertext markup language, and it tells the web browser how to display the content of a web page. 
+
+tag - A tag is used for creating an HTML element.
+
+element - An element is a part of a webpage that may contain a data item, an image, text, or nothing at all.
+
+node - a node is an element, it can be an element node or an attribute node, or any other type of HTML element.
+
+attribute - an attribute changes the tag behavior by adding the form "name=value" following the tag name in the opening tag.
+
+block element - a block element appears within the body of an HTML document and occupies the entire space of its container and has a newline before and after. Block elements may contain inline elements.
+
+inline element - an inline element is delineated by tags that wrap around the element, and it only occupies the space within those tags. 
+
+Very briefly, explain the purpose of the following elements:
+
+head - The head holds metadata that describes a website. This information is not visible on the site.
+
+body - The body holds HTML elements that can be seen by the website user.
+
+p - The name of a tag that represents a paragraph element.
+
+form - the form tag is an element that represents a section that contains interactive controls to submit information.
+
+div - a block element generic container for content.
+
+span - a tag name for a container for an inline element.
+
+select - an element that represents a control for a drop-down menu. The options are represented by wrapping an element in <option></option> tags.
+
+h2 - a header tag, that implies.
+
+ol - a tag that denotes an ordered list.
+
+ul - a tag that denotes an unordered (bulleted) list.
+
+table - an element that represents tabular data, like a chart or spreadsheet.
+
+tr - a tag that defines a table row.
+
+td - a tag that defines a table column.
+
+https://github.com/melaniegershman/eow-assignments/blob/master/wk2_review_and_reflect.txt
