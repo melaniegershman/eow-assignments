@@ -1,0 +1,7 @@
+Name at least three categories of CSS adjustments (example: colors)? Three categories of CSS adjustments include colors, position, and size. 
+What are the three ways to link a CSS rule to an HTML document? Which one is the best and why?
+What is a selector? Give examples of at least three types of selectors.
+What is the box model?
+Explain and give an example of the cascading effect of CSS.
+Name two CSS techniques that assist in responsive design.
+1) Media queries and 2) mobile-first design aid in responsive design. Media queries provide solutions to adjusted screen sizes, and mobile-first design aim to prevent issues with narrow screen sizes by addressing them first and then adding features and width for larger viewports. 
