@@ -16,3 +16,5 @@ Cascading influences how styling is inherited. A user’s style modifies the bro
 
 Name two CSS techniques that assist in responsive design.
 1) Media queries and 2) DevTools. Media queries provide solutions to adjusted screen sizes, and using DevTools allows the developer to test how responsive their design is while being able to test various changes while in a browser.
+
+https://github.com/melaniegershman/eow-assignments
