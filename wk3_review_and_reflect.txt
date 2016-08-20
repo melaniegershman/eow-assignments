@@ -1,0 +1,18 @@
+Name at least three categories of CSS adjustments (example: colors)? 
+
+Three categories of CSS adjustments include colors, position, and size. 
+
+What are the three ways to link a CSS rule to an HTML document? Which one is the best and why?
+Three ways to link a CSS rule to an HTML document are: 1) use inline styling, 2) link an external CSS stylesheet to your HTML document, and 3) use an internal stylesheet within your HTML document. The best method is to link an external CSS sheet to your HTML document because it allows you to easily apply sweeping style changes to your HTML by changing one document. Using inline styling would require constantly updating multiple elements since you would need to apply inline styling to each tag, while the disadvantage to using internal styling sheets is that it can’t be used on a site with multiple web pages. 
+
+What is a selector? Give examples of at least three types of selectors.
+A selector sets a rule for an element so that you can style it. There are many ways to select an element, including an element type selector, which selects an HTML tag. It is less specific, and will select all elements that match the selected tag. Two more selectors are ID and class selectors. Both are defined by the developer, but the ID is more specific in that an ID element on an HTML doc should be unique. A class selector allows for more flexibility because you can apply a class selector to multiple elements. 
+
+What is the box model?
+The box model refers to web page design and layout. All HTML elements are considered to be boxes, and the box model refers to the different parts of an element. The element itself is the content, surrounded by the padding, which clears an area around the content, which is then surrounded by a border that can be made either visible or invisible, and all of this is wrapped by the margin, which clears the area around the border and can provide space between elements. 
+
+Explain and give an example of the cascading effect of CSS.
+Cascading influences how styling is inherited. A user’s style modifies the browser’s default style, and then the user’s style is modified by the document author’s style. An example is that, a child element will inherit style rules from its parent. 
+
+Name two CSS techniques that assist in responsive design.
+1) Media queries and 2) DevTools. Media queries provide solutions to adjusted screen sizes, and using DevTools allows the developer to test how responsive their design is while being able to test various changes while in a browser.
