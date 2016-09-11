@@ -1,0 +1,55 @@
+Variables
+1. What is a variable? Why might a programmer use a variable?
+A variable is a name to which a value is assigned. Variables are useful because they allow a program to assign a piece of code, or a long string to a variable and then plug that variable in to another string of code or method as needed. For example:
+variable = "here is a sentence; it's so long, I wish I could store it some way so I could use it later!"
+
+2. If the value of first_name is "Abraham" and last_name is "Lincoln", explain the order in which Ruby will run the line full_name = first_name + last_name, and what the final result will be.
+Ruby will return "AbrahamLincoln". Since both values are strings, the '+' operator will join them together.
+
+Data Types
+3. For each of the following data types, write a short definition and give at least one example of when you might use the data type in a program. (Don't use an example we've already provided.)
+
+string - A string is a sequence of characters. A string might be a stored name or piece of information, i.e. "Melanie" or "Brooklyn, NY". A string can be added to another string.
+integer - An integer is a whole number, i.e. 1
+float - A float represents a number with a decimal, i.e. 2.5
+nil - A data type that is equivalent to nothing. It can be used as a blank or empty space. 
+boolean - A boolean returns a true or false value, which is useful in conditional statements. 
+
+Algorithms
+4. What is an algorithm?
+An algorithm is a set of rules to be followed while performing an action.
+
+5. What are two common categories of algorithm in computer science? 
+Searching and sorting.
+
+Methods
+6. What is a method? Why might a programmer choose to use a method?
+A method is a reusable programmed procedure. Much like a programmer can define and reuse a variable, a programmer can use a method as a part of a larger program.
+
+7. Define the following terms as they relate to a method. 
+
+return value - A method will return a value.
+side effect - A method such as puts or each will return a side effect, which is when some sort of modification to a non-local variable or some sort of observable interaction with calling methods. Its return value will be nil.
+
+parameter - A method has parameters, ex:
+		def method (parameter)
+			some code
+		end 
+argument - A method accepts an argument. In the previous example, the argument would be passed into the method and evaluated.
+implicit return - An implicit return value is one that is not specified. In Ruby, the last expression evaluated is used as a return value. 
+
+8. What are global scope and method scope? How do those scopes impact the availability of data at different points in a program?
+Global scope is available everywhere within a Ruby scripy, while a method scope is only available within the method. Assigning method scope limits accessibility to a variable. A variable that is defined within a method is only accessible within that mathod. A variable that is global will, when changed, change throughout the entire program.
+
+Control Flow
+9. What is control flow? Why might a programmer choose to use flow control?
+Control flow is the order in which individual statements or function calls of a program as executed.
+
+10. Define the following terms as they relate to flow control.
+
+loop - this means that a statement will execute a predetermined amount of times.
+if - this means that a statement will execute only if a condition has been met.
+else - this means that a statement will execute if all other conditions have not yet been met.
+elsif - this means that a statement will execute if the condition prior to it has not been met.
+while - this means that a statement will execute while it does not meet a certain condition.
+until - this means that a statement will execute until a condition has been met.
