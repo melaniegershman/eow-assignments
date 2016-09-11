@@ -1,0 +1,30 @@
+Data Structures
+1. Why are data structures useful in programming?
+	Data structures are useful in programming because they allow you to store data in the way that is best suited based on its type, and then access it accordingly. While an array is a great way to store a collection of similar items, a hash map is a better way to store connected pieces of data, such as an item and its attributes. Data structures can also be iterated through in order to obtain a result or an updated set of data.
+
+Arrays
+2. Define "array" and describe the characteristics of an array.
+	An array is an ordered, integer-indexed collection of objects. Arrays can contain a variety of objects, and you can access them by referencing a numeric index.
+
+3. Give two original examples of data sets that an array might be well-suited for.
+	An array would be well-suited to contain a data set of similar attributes (i.e. colors) or a sequential data set (i.e. the alphabet or a numeric range).
+
+Hashes
+4. Define "hash" and describe the characteristics of a hash.
+	A hash is a dictionary-like collection of unique keys and their values. A hash lets you access a value by calling its key. Values can be any object, including arrays.
+
+5. Give two original examples of data sets that a hash might be well-suited for.
+	A hash is useful for a data set which has attributes that relate to a specific key (i.e. personal stats about someone, where a name is a key and things like height, eye color, and an array of interests would be the value). Another example of a hash would be a list of musicians and their discography.
+Iteration
+6. Why is iteration useful?
+	Iteration is useful because it allows you to loop through a data structure and perform an operation on each element in the structure. Iteration also saves time and cuts down on code so that you don’t need to write the same code over and over for each action. This makes it malleable based on the conditions a programmer sets.
+
+7. Give an example of a real-life task that would require iteration if you wrote an algorithm for it.
+	A real-life task that would require iteration would be counting coffee beans and saying the bean number each time you count a new bean.
+
+Blocks
+8. What is a block?
+	A block is a piece of code that is inserted into a program to execute a function. You can pass a block to a method in the same way you would pass an argument.
+
+9. What is a block parameter, and where does its value come from?
+	A block parameter is presented in pipes within the block. Its value is the item in the array that is being looped over. If you have an array = [1, 2, 3] and you write array.each {|x| puts “Number #{x}”}, x will be 1, then 2, then 3.
