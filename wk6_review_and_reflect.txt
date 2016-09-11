@@ -1,0 +1,36 @@
+1. What are classes? Be sure to define the following terms in your explanation and describe the relationships between them:
+
+Classes are like blueprints that allow you to create an object and then assign it to a variable in order to use the methods you've defined in your class definition. 
+
++ class - includes characteristics and behavior for an object
++ state - a state is the characteristics/data of each instance.
++ behavior - a behavior is a method, which is included in a class. 
++ instance variable - an instance variable is a variable defined in a class, and written as: @variable because its scope is confined to whatever object the class refers to.
++ instance method - an instance method is a method you call on an instance. It is written as #method or object.method. 
+
+2. What are attributes?
+Attributes are a sort of variable that you can use inside of a class declaration.
+
+3. Give an example of a real world object, and describe how you might assign its attributes if you were to design a class to represent that object.
+A real world example might be a chair, as represented in the below Chair class:
+
+def Chair
+	def initialize
+		@legs = 4
+		@material = wood
+		@wheels = no
+	end
+end
+
+When we think of a chair, we think of its given attributes, such as whether it has legs, what it's made of, whether it has wheels, and so on. Using getters and setters, we can access and rewrite these to create a variety of instances with different attributes (i.e. an instance called an eames chair, a herman_miller chair, and so on).
+
+4. What is the purpose of the initialize method? When does it run?
+The initialize method that Ruby runs every time an instance of a class is instantiated. 
+
+5. What are modules?
+A module is a compartmentalized set of related methods, or a solitary set of behavior.
+
+6. What are the different ways you can use a module?
+Two ways to use a module are to compartmentalize your methods so that other programmers don't accidentally write over your method. To differentiate each method, you would call the method on a separate module. By namespacing, you avoid confusion as to which behavior is needed for each thing.
+
+You can also use a module as a mixin, where it is mixed into a class to give the class more functionality. For example, if you have two things that can both fly, but do so for different reasons/at different levels, the verb 'fly' is really only meaningful as it relates to each separate thing. 
